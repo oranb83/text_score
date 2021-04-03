@@ -15,6 +15,7 @@ python3 -m venv ~/Envs/text_score
 source ~/Envs/text_score/bin/activate
 pip install -U pip
 pip install -r test_requirements.txt
+```
 
 ### Run every time
 `source ~/Envs/text_score/bin/activate`  // once per terminal tab
