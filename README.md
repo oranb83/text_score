@@ -15,7 +15,7 @@ Note: it should work for python >= 3.7, but not tested.
 `pip install -r test_requirements.txt`
 
 ### Run every time
-`source ~/Envs/text_score/bin/activate`  # once per terminal
+`source ~/Envs/text_score/bin/activate`  // once per terminal
 `python -m pytest`
 
 ## How to run the program
