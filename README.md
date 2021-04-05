@@ -12,6 +12,14 @@ the matching prefix and ends with a matching suffix, and has the highest textSco
 correct value to return. If there are other substrings with equal textScore, return the
 lexicographically lowest substring.
 
+## Constraints
+
+* text, prefixString, and suffixString contain lowercase English alphabetic letters ascii[a-z] only.
+* 1 ≤ |text|, |prefixString|, |suffixString| ≤ 50 (here | | means length of)
+* It is guaranteed that there will always be a substring of text that matches at least one of the following:
+  * One or more characters at the end of prefixString.
+  * One or more characters at the beginning of suffixString.
+
 ## What to install?
 Install python3.9:
 If you have Mac: `brew install python@3.9`
