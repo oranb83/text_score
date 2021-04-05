@@ -4,8 +4,9 @@ Find the smallest substring with highest text score
 # Description
 Given three strings, text, prefixString, and suffixString, find:
 
-● prefixScore: the longest substring of text matching the end of prefixString
-● suffixScore: the longest substring of text matching the beginning of suffixString.
+* prefixScore: the longest substring of text matching the end of prefixString
+* suffixScore: the longest substring of text matching the beginning of suffixString.
+
 Sum the lengths of the two strings to get the textScore. The substring of text that begins with
 the matching prefix and ends with a matching suffix, and has the highest textScore, is the
 correct value to return. If there are other substrings with equal textScore, return the
